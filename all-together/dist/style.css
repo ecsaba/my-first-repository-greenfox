@@ -1,0 +1,60 @@
+div {
+	display: flex;
+	width: 800px;
+	height: 600px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;
+}
+
+header{
+	background: aqua;
+	width: 800px;
+	height:150px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 5px 2px grey;
+	margin-bottom: 2px;
+	
+}
+aside {
+	flex-grow: 1;
+	box-shadow: 0px 0px 5px 2px grey;
+	
+}
+
+main {
+	flex-grow: 3;
+	background: red;
+	position: relative;
+	box-shadow: 0px 0px 5px 2px grey;
+}
+.left {
+	background: orange;
+	margin-right:10px;
+}
+.right {
+	background: purple;
+	margin-left:10px;
+}
+.blackbox {
+	background: black;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	box-shadow: 0px 0px 5px 2px grey;
+}
+footer {
+	background:blue;
+	width: 800px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 5px 2px grey;
+	margin-top: 2px;
+	
+}

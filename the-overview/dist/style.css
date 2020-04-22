@@ -1,0 +1,39 @@
+main {
+	font-family: 'Sen', sans-serif;
+	font-size: 2em;
+}
+main:hover {
+  background: red;
+	
+}
+.czeh {
+	display: block;
+	margin: 10px;
+	text-decoration: none;
+	color: green;
+}
+.hun {
+	display: block;
+	margin: 10px;
+	text-decoration: none;
+	color: green;
+}
+.syl{
+	display: block;
+	margin: 10px;
+	text-decoration: none;
+	color: green;
+}
+a {
+  color: blue;
+}
+a:hover {
+  color: lime;
+}
+a:visited {
+  color: purple;
+}
+
+a:active {
+  color: red;
+}

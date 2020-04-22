@@ -1,0 +1,17 @@
+main {
+	font-family: 'Baloo Thambi 2', cursive;
+}
+h1 {
+	color: red;
+}
+h2 {
+	color: purple;
+}
+ul  {
+ 
+  list-style-type: square;
+  
+}
+ol {
+	list-style-type: upper-roman;
+}
